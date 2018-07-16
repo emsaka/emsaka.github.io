@@ -1,0 +1,4 @@
+{
+  "presets": ["setsun"],
+  "plugins": ["inline-react-svg"]
+}
