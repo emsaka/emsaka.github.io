@@ -5,9 +5,6 @@ echo "Deploying emsaka.github.io"
 git checkout -B staging
 rm .gitignore
 
-touch dist/CNAME
-echo 'emsaka.com' >> dist/CNAME
-
 git add dist
 git -c user.name='CircleCI Deploy' -c user.email='deploy@emsaka.com' commit -m "deploy" --no-verify
 
